@@ -19,8 +19,8 @@ function displayRandomCard() {
     answer.id = "answer";
     answer.classList.add("invisible");
     answer.innerHTML = randomCard.answer;
-    document.getElementById("card").appendChild(question);
-    document.getElementById("card").appendChild(answer);
+    document.getElementById("question-part").appendChild(question);
+    document.getElementById("answer-part").appendChild(answer);
 
 }
 
