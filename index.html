@@ -20,6 +20,22 @@
             <button type="default" onclick="showAnswer()">The answer</button>
             <button type="default" onclick="nextCard()">Next</button>
         </section>
+        <section id="addCard">
+            <h4>You can add your own cards!</h4>
+            <form onsubmit="submitNewCard(); return false">
+                <div class="formSection">
+                    <label for="new-question">Question:</label>
+                    <textarea id="new-question"></textarea>
+                </div>
+                <div class="formSection">
+                    <label for="new-answer">Answer:</label>
+                    <textarea id="new-answer"></textarea>
+                </div>
+                <div class="button">
+                    <button type="default">Add Card</button>
+                </div>
+            </form>
+        </section>
     </main>
 
 
