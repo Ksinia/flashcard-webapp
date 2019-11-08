@@ -4,7 +4,7 @@
 }
 body {
     background-image: linear-gradient(#FFBA00, #993366);
-    padding: 25px 100px;
+    padding: 20px;
     text-align: center;
     font-family: Verdana;
 }
@@ -16,7 +16,7 @@ html {
     background: white;
     border-radius: 5px;
     margin: 20px auto;
-    width: 50%;
+    width: 80%;
     padding: 20px 0;
     display:flex;
     flex-flow: column;
@@ -50,4 +50,6 @@ button {
 textarea {
     width: 100%;
     margin-right: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #993366;
 }
