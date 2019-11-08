@@ -50,9 +50,7 @@ function submitNewCard() {
     if (doesNotPassAllValidations(newQuestion, newAnswer)) {
         return null
     }
-    console.log(initialData);
     initialData.push({ "question": newQuestion, "answer": newAnswer })
-    console.log(initialData);
     inputFieldQuestion.value = null;
     inputFieldAnswer.value = null;
 }
