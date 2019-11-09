@@ -64,11 +64,11 @@ function doesNotPassAllValidations(newQuestion, newAnswer) {
         alert('You forgot to fill the answer!');
         return true;
     }
-    if (newQuestion > 280) {
+    if (newQuestion.length > 280) {
         alert(`Your question must not exceed 280 symbols. Now it is ${newQuestion.length} symbols`);
         return true;
     }
-    if (newAnswer > 280) {
+    if (newAnswer.length > 280) {
         alert(`Your answer must not exceed 280 symbols. Now it is ${newQuestion.length} symbols`);
         return true;
     }
